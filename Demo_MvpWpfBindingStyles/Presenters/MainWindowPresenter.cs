@@ -9,9 +9,13 @@ namespace Demo_MvpWpfBindingStyles.Presenters
 {
     public class MainWindowPresenter
     {
-        public Student SelectedStudent { get; set; }
+        private Student _selectedStudent;
 
-        public int MyProperty { get; set; }
+        public Student SelectedStudent
+        {
+            get { return _selectedStudent; }
+            set { _selectedStudent = value; }
+        }
 
         public MainWindowPresenter()
         {
