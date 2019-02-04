@@ -23,7 +23,7 @@ namespace Demo_MvpWpfBindingStyles.Presenters
             SelectedStudent = new Student()
             {
                 LastName = "Velis",
-                FirstName = "John",
+                FirstName = "Johnny",
                 Age = 61
             };
         }
